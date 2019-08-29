@@ -79,7 +79,7 @@ public class recyclerviewFragment extends Fragment {
         @SuppressLint("WrongConstant") LinearLayoutManager manager = new LinearLayoutManager(getActivity().getApplicationContext(),LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(manager);
         recyclerView.setAdapter(adapter);
-       // adapter.setOnClickListener(onClickListener);
+        adapter.setOnClickListener(onClickListener);
     }
 
     public View.OnClickListener onClickListener = new View.OnClickListener() {
