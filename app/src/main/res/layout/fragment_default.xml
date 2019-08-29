@@ -7,14 +7,15 @@
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="354dp"
+        android:layout_height="338dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="128dp"
-        android:layout_marginEnd="71dp"
-        android:src="@drawable/pokemonlogo" />
-
+        android:layout_centerInParent="true"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/pokemonball"
+        android:id="@+id/pokemon_ball"/>
 
 
 </RelativeLayout>

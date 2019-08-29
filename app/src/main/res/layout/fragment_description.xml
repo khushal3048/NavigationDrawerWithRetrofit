@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="vertical"
     android:orientation="vertical"
 
     tools:context=".descriptionFragment">
@@ -22,7 +23,7 @@
         android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:textSize="20sp"
@@ -35,17 +36,25 @@
         android:id="@+id/txt_type"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:text="@string/app_name"
         android:textSize="20sp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ability : "
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"/>
     <TextView
         android:id="@+id/txt_ability"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
 
+        android:scrollbars="vertical"
+        android:lines="2"
         android:textSize="20sp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
@@ -56,7 +65,7 @@
         android:id="@+id/txt_height"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:text="@string/app_name"
         android:textSize="20sp"/>
@@ -65,12 +74,18 @@
         android:id="@+id/txt_weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
 
         android:textSize="20sp"
         android:layout_marginTop="20dp"
         android:text="@string/app_name" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description : "
+        android:layout_marginStart="20dp"
+        android:textSize="20sp"/>
     <TextView
         android:id="@+id/txt_desc"
         android:layout_width="wrap_content"
@@ -83,6 +98,7 @@
 
         android:scrollbars="vertical"
 
+        android:lines="4"
         android:textSize="20sp"
         android:text="The final of three forms, Charizard evolved from Charmeleon, who evolved from Charmander, one of the three starter Pokémon in Pokémon Red/Blue. Charizard takes on the flying type in addition to Charmeleon's fire type, it's wings having fully developed to allow it to remain aloft. Powerful in its own right, with the use of special moves such as rock smash, Charizard is a force to be reckoned with."
         />
