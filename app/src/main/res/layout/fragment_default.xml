@@ -14,15 +14,4 @@
         android:layout_marginTop="128dp"
         android:layout_marginEnd="71dp"
         android:src="@drawable/pokemonlogo" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="86dp"
-        android:layout_marginBottom="228dp"
-        android:text="Pokemons"
-        android:textSize="45sp" />
-
 </RelativeLayout>
