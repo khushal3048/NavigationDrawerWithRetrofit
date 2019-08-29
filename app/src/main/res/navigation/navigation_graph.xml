@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/defaultFragment">
 
+    <fragment
+        android:id="@+id/defaultFragment"
+        android:name="com.example.navigationdrawerwithretrofit.defaultFragment"
+        android:label="fragment_default"
+        tools:layout="@layout/fragment_default" />
+    <fragment
+        android:id="@+id/recyclerviewFragment"
+        android:name="com.example.navigationdrawerwithretrofit.recyclerviewFragment"
+        android:label="fragment_recyclerview"
+        tools:layout="@layout/fragment_recyclerview" />
+    <fragment
+        android:id="@+id/descriptionFragment"
+        android:name="com.example.navigationdrawerwithretrofit.descriptionFragment"
+        android:label="fragment_description"
+        tools:layout="@layout/fragment_description" />
 </navigation>
