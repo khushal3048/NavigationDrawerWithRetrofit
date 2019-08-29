@@ -26,18 +26,6 @@
         android:text="@string/app_name" />
 
 
-    <TextView
-        android:id="@+id/txt_desc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="8dp"
-        android:lines="4"
-        android:scrollbars="vertical"
-
-        android:text="The final of three forms, Charizard evolved from Charmeleon, who evolved from Charmander, one of the three starter Pokémon in Pokémon Red/Blue. Charizard takes on the flying type in addition to Charmeleon's fire type, it's wings having fully developed to allow it to remain aloft. Powerful in its own right, with the use of special moves such as rock smash, Charizard is a force to be reckoned with." />
 
 
     <TextView
@@ -53,9 +41,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="204dp"
-        android:baselineAligned="false"
+
         android:text="@string/app_name" />
 
     <TextView
@@ -63,10 +49,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="328dp"
-        android:layout_marginBottom="8dp"
-        android:baselineAligned="false"
         android:text="@string/app_name" />
 
     <TextView
@@ -74,8 +56,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="68dp"
+
         android:text="@string/app_name" />
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:lines="4"
+        android:scrollbars="vertical"
+
+        android:text="The final of three forms, Charizard evolved from Charmeleon, who evolved from Charmander, one of the three starter Pokémon in Pokémon Red/Blue. Charizard takes on the flying type in addition to Charmeleon's fire type, it's wings having fully developed to allow it to remain aloft. Powerful in its own right, with the use of special moves such as rock smash, Charizard is a force to be reckoned with."
+        />
+
 
 </LinearLayout>
